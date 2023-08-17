@@ -38,9 +38,9 @@ html {box-sizing: border-box;}
 /* Change light <--> dark for testing */
 @media (prefers-color-scheme: dark) {
   :root {
-    --pageBg: #224472;
+    --pageBg: rgba(34, 68, 114, 0);
     --imgOpacity: 1;
-    --bgFill: hsla(214,71%,25%,.5);
+    --bgFill: hsla(214,71%,25%,.0);
 
     --rotationBgFill: #fff;
     --rotationBgOpacity: 0.25;
@@ -49,15 +49,15 @@ html {box-sizing: border-box;}
     --rotationMajorStrokeWidth: 1;
 
     --circlesMajorStroke: currentcolor;
-    --circlesMajorStrokeWidth: 1;
+    --circlesMajorStrokeWidth: 3;
 
     --shieldFill: #fff;
     --shieldStroke: currentcolor;
-    --shieldOverlayFill: #41437b;
+    --shieldOverlayFill: #000000;
     --shieldOverlayFillOpacity: 0.65;
     --shieldSus4Fill: #000;
     --shieldSus4FillOpacity: 0.2;
-    --shieldKeyFill: #d7d8fb;
+    --shieldKeyFill: #fbfad7;
 
     --shieldTextLinesColor: #fff;
     --shieldTextLinesFill: #fff;
@@ -88,7 +88,7 @@ body {
 
 
 /* Fullscreen button added by JS, if supported */
-
+/*
 [class^="fullScreen_btn"]::-moz-focus-inner {
   border: 0;
 }
@@ -125,7 +125,7 @@ body {
   transition: fill .3s;
 }
 
-
+*/
 
 .circle {
   margin: 0 auto;
@@ -240,6 +240,11 @@ body {
 }
 [data-drag] {
   cursor: move;
+}
+
+/* Dragging requires pointer events */
+.noPointerEvents .requiresPointerEvents {
+  display: none;
 }
 
 /* Dragging requires pointer events */
