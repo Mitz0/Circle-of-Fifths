@@ -88,7 +88,7 @@ body {
 
 
 /* Fullscreen button added by JS, if supported */
-/*
+
 [class^="fullScreen_btn"]::-moz-focus-inner {
   border: 0;
 }
@@ -125,7 +125,7 @@ body {
   transition: fill .3s;
 }
 
-*/
+
 
 .circle {
   margin: 0 auto;
