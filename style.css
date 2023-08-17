@@ -251,3 +251,11 @@ body {
 .noPointerEvents .requiresPointerEvents {
   display: none;
 }
+
+/* Ocultar la funcionalidad de pantalla completa */
+[class^="fullScreen_btn"],
+[class^="fullScreen_svg"],
+.noPointerEvents .requiresPointerEvents {
+  display: none !important;
+}
+
