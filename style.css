@@ -49,7 +49,7 @@ html {box-sizing: border-box;}
     --rotationMajorStrokeWidth: 1;
 
     --circlesMajorStroke: currentcolor;
-    --circlesMajorStrokeWidth: 3;
+    --circlesMajorStrokeWidth: 1;
 
     --shieldFill: #fff;
     --shieldStroke: currentcolor;
