@@ -252,6 +252,17 @@ body {
   display: none;
 }
 
+/* Tu CSS actual */
+
+/* Agregar imagen de fondo al círculo de quintas */
+.circle {
+  background-image: url('https://i.imgur.com/cKLTe7P.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 /* Ocultar la funcionalidad de pantalla completa */
 [class^="fullScreen_btn"],
 [class^="fullScreen_svg"],
