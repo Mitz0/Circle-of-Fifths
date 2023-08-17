@@ -54,7 +54,7 @@ html {box-sizing: border-box;}
     --shieldFill: #fff;
     --shieldStroke: currentcolor;
     --shieldOverlayFill: #000000;
-    --shieldOverlayFillOpacity: 0.65;
+    --shieldOverlayFillOpacity: 0.5;
     --shieldSus4Fill: #000;
     --shieldSus4FillOpacity: 0.2;
     --shieldKeyFill: #fbfad7;
